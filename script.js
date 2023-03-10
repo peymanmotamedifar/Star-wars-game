@@ -510,27 +510,27 @@ setInterval(function(){
 
     //Enemy***********************
 
-          span1.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span1.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span1.style.bottom = Math.floor(Math.random() * 200)+700 + "px";
-          span2.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span2.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span2.style.bottom = Math.floor(Math.random() * 300)+900 + "px";
-          span3.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span3.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span3.style.bottom = Math.floor(Math.random() * 400)+1200 + "px";
-          span4.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span4.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span4.style.bottom = Math.floor(Math.random() * 400)+2000 + "px";
-          span5.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span5.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span5.style.bottom = Math.floor(Math.random() * 500)+2500 + "px";
-          span6.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span6.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span6.style.bottom = Math.floor(Math.random() * 500)+3000 + "px";
-          span7.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span7.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span7.style.bottom = Math.floor(Math.random() * 500)+3500 + "px";
-          span8.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span8.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span8.style.bottom = Math.floor(Math.random() * 500)+4100 + "px";
-          span9.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span9.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span9.style.bottom = Math.floor(Math.random() * 500)+4600 + "px";
-          span10.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span10.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span10.style.bottom = Math.floor(Math.random() * 500)+4900 + "px";
-          span11.style.left = Math.floor(Math.random() * 730)+30 + "px";
+          span11.style.left = Math.floor(Math.random() *  695)+30  + "px";
           span11.style.bottom = Math.floor(Math.random() * 500)+5300 + "px";
 
 
@@ -625,7 +625,7 @@ if(
     explosion.play()
     span1.style.transition = '0s'
     span1.style.bottom = '3000px'
-    span1.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span1.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span1.style.transition = '140s'
     span1.style.bottom = '-6100px'
@@ -656,7 +656,7 @@ if((p1 ) < 1){
     audio1.play()
     span1.style.transition = '0s'
     span1.style.bottom = '3000px'
-    span1.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span1.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span1.style.transition = '140s'
@@ -670,7 +670,7 @@ if((p2 ) < 1){
     audio1.play()
     span2.style.transition = '0s'
     span2.style.bottom = '3000px'
-    span2.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span2.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span2.style.transition = '140s'
@@ -682,7 +682,7 @@ if((p3 ) < 1){
     audio1.play()
     span3.style.transition = '0s'
     span3.style.bottom = '3000px'
-    span3.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span3.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span3.style.transition = '140s'
@@ -694,7 +694,7 @@ if((p4 ) < 1){
     audio1.play()
     span4.style.transition = '0s'
     span4.style.bottom = '3000px'
-    document.querySelector('section>span>span:nth-of-type(14').style.left = Math.floor(Math.random() * 730)+30 + "px";
+    document.querySelector('section>span>span:nth-of-type(14').style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span4.style.transition = '140s'
@@ -706,7 +706,7 @@ if((p5 ) < 1){
     audio1.play()
     span5.style.transition = '0s'
     span5.style.bottom = '3000px'
-    span5.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span5.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span5.style.transition = '140s'
@@ -718,7 +718,7 @@ if((p6 ) < 1){
     audio1.play()
     span6.style.transition = '0s'
     span6.style.bottom = '3000px'
-    span6.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span6.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span6.style.transition = '140s'
@@ -730,7 +730,7 @@ if((p7 ) < 1){
     audio1.play()
     span7.style.transition = '0s'
     span7.style.bottom = '3000px'
-    span7.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span7.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span7.style.transition = '140s'
@@ -742,7 +742,7 @@ if((p8 ) < 1){
     audio1.play()
     span8.style.transition = '0s'
     span8.style.bottom = '3000px'
-    span8.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span8.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span8.style.transition = '140s'
@@ -754,7 +754,7 @@ if((p9 ) < 1){
     audio1.play()
     span9.style.transition = '0s'
     span9.style.bottom = '3000px'
-    span9.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span9.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span9.style.transition = '140s'
@@ -766,7 +766,7 @@ if((p10 ) < 1){
     audio1.play()
     span10.style.transition = '0s'
     span10.style.bottom = '3000px'
-    span10.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span10.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span10.style.transition = '140s'
@@ -778,7 +778,7 @@ if((p11 ) < 1){
     audio1.play()
     span11.style.transition = '0s'
     span11.style.bottom = '3000px'
-    span11.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span11.style.left = Math.floor(Math.random() *  695)+30  + "px";
     _rng.stepDown()
     setTimeout(function(){
         span11.style.transition = '140s'
@@ -808,7 +808,7 @@ if(
     explosion.play()
     span2.style.transition = '0s'
     span2.style.bottom = '3000px'
-    span2.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span2.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span2.style.transition = '140s'
     span2.style.bottom = '-6100px'
@@ -837,7 +837,7 @@ if(
     explosion.play()
     span3.style.transition = '0s'
     span3.style.bottom = '3000px'
-    span3.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span3.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span3.style.transition = '140s'
     span3.style.bottom = '-6100px'
@@ -866,7 +866,7 @@ if(
     explosion.play()
     span4.style.transition = '0s'
     span4.style.bottom = '3000px'
-    span4.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span4.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span4.style.transition = '140s'
     span4.style.bottom = '-6100px'
@@ -895,7 +895,7 @@ if(
     explosion.play()
     span5.style.transition = '0s'
     span5.style.bottom = '3000px'
-    span5.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span5.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span5.style.transition = '140s'
     span5.style.bottom = '-6100px'
@@ -924,7 +924,7 @@ if(
     explosion.play()
     span6.style.transition = '0s'
     span6.style.bottom = '3000px'
-    span6.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span6.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span6.style.transition = '140s'
     span6.style.bottom = '-6100px'
@@ -953,7 +953,7 @@ if(
     explosion.play()
     span7.style.transition = '0s'
     span7.style.bottom = '3000px'
-    span7.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span7.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span7.style.transition = '140s'
     span7.style.bottom = '-6100px'
@@ -982,7 +982,7 @@ if(
     explosion.play()
     span8.style.transition = '0s'
     span8.style.bottom = '3000px'
-    span8.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span8.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span8.style.transition = '140s'
     span8.style.bottom = '-6100px'
@@ -1011,7 +1011,7 @@ if(
     explosion.play()
     span9.style.transition = '0s'
     span9.style.bottom = '3000px'
-    span9.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span9.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span9.style.transition = '140s'
     span9.style.bottom = '-6100px'
@@ -1040,7 +1040,7 @@ if(
     explosion.play()
     span10.style.transition = '0s'
     span10.style.bottom = '3000px'
-    span10.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span10.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span10.style.transition = '140s'
     span10.style.bottom = '-6100px'
@@ -1069,7 +1069,7 @@ if(
     explosion.play()
     span11.style.transition = '0s'
     span11.style.bottom = '3000px'
-    span11.style.left = Math.floor(Math.random() * 730)+30 + "px";
+    span11.style.left = Math.floor(Math.random() *  695)+30  + "px";
     setTimeout(function(){
         span11.style.transition = '140s'
     span11.style.bottom = '-6100px'
